@@ -1,4 +1,5 @@
-FROM python:3.8-slim-buster
+FROM python:3.9-slim-bookworm
+
 
 RUN apt update && apt upgrade -y
 RUN apt install git -y
